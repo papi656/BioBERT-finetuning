@@ -1,0 +1,438 @@
+Started fine-tuning of BioBERT on BC5CDR
+
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at dmis-lab/biobert-v1.1 and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1:
+	training loss at 0 steps: 0.8212162852287292
+	training loss at 100 steps: 15.84301888756454
+	training loss at 200 steps: 20.173812718130648
+	training loss at 300 steps: 22.684339672792703
+	training loss at 400 steps: 24.907002084888518
+	training loss at 500 steps: 26.782531888224185
+	training loss at 600 steps: 28.466613647295162
+	training loss at 700 steps: 29.972446133731864
+	training loss at 800 steps: 31.59436100826133
+	Training loss for the epoch: 32.06961251527537
+	Training accuracy for epoch: 0.9111210716489827
+	Validation loss: 12.461795571551193
+Epoch 2:
+	training loss at 0 steps: 0.006854483857750893
+	training loss at 100 steps: 0.9920831490890123
+	training loss at 200 steps: 1.8186782415141352
+	training loss at 300 steps: 2.8864494277222548
+	training loss at 400 steps: 3.9900147829030175
+	training loss at 500 steps: 5.027899850421818
+	training loss at 600 steps: 5.916355957073392
+	training loss at 700 steps: 6.729079921205994
+	training loss at 800 steps: 7.60159426915925
+	Training loss for the epoch: 7.839051055081654
+	Training accuracy for epoch: 0.9733436769229287
+	Validation loss: 12.365951934491022
+Epoch 3:
+	training loss at 0 steps: 0.0014920150861144066
+	training loss at 100 steps: 0.44709454639814794
+	training loss at 200 steps: 0.8967096577980556
+	training loss at 300 steps: 1.4021516616630834
+	training loss at 400 steps: 1.9248191266669892
+	training loss at 500 steps: 2.4945664769329596
+	training loss at 600 steps: 3.057857793493895
+	training loss at 700 steps: 3.6294261285220273
+	training loss at 800 steps: 4.056785893277265
+	Training loss for the epoch: 4.21191766942502
+	Training accuracy for epoch: 0.9858749351709902
+	Validation loss: 13.640127449631109
+Epoch 4:
+	training loss at 0 steps: 0.0020927423611283302
+	training loss at 100 steps: 0.32818664435035316
+	training loss at 200 steps: 0.5717358886249713
+	training loss at 300 steps: 0.8082537068767124
+	training loss at 400 steps: 1.1756765499158064
+	training loss at 500 steps: 1.5078188093393692
+	training loss at 600 steps: 1.9216533919498033
+	training loss at 700 steps: 2.191699991326459
+	training loss at 800 steps: 2.465338942613016
+	Training loss for the epoch: 2.547151880880847
+	Training accuracy for epoch: 0.9914976187916815
+	Validation loss: 14.167541221637293
+Epoch 5:
+	training loss at 0 steps: 0.00023234151012729853
+	training loss at 100 steps: 0.20049780479166657
+	training loss at 200 steps: 0.37096035612921696
+	training loss at 300 steps: 0.5937293321585457
+	training loss at 400 steps: 0.810357812759321
+	training loss at 500 steps: 0.9827917373404489
+	training loss at 600 steps: 1.1384460210574616
+	training loss at 700 steps: 1.3460680773860076
+	training loss at 800 steps: 1.6001029025792377
+	Training loss for the epoch: 1.6560036683877115
+	Training accuracy for epoch: 0.9947256754554018
+	Validation loss: 17.86718661294435
+Epoch 6:
+	training loss at 0 steps: 0.0070250085555016994
+	training loss at 100 steps: 0.1808666927390732
+	training loss at 200 steps: 0.2899551730697567
+	training loss at 300 steps: 0.376993585647142
+	training loss at 400 steps: 0.46239397386671044
+	training loss at 500 steps: 0.6228205349871132
+	training loss at 600 steps: 0.7553462257928913
+	training loss at 700 steps: 0.8914984741350054
+	training loss at 800 steps: 0.9828522826828703
+	Training loss for the epoch: 1.0042349977629783
+	Training accuracy for epoch: 0.9968205266483839
+	Validation loss: 18.6292906510962
+___________________________________
+Early stopped at epoch 6.
+Epoch 7:
+	training loss at 0 steps: 9.310668974649161e-05
+	training loss at 100 steps: 0.1024060999188805
+	training loss at 200 steps: 0.2620613997733017
+	training loss at 300 steps: 0.3370571651557839
+	training loss at 400 steps: 0.4626554869955726
+	training loss at 500 steps: 0.5699382830516697
+	training loss at 600 steps: 0.6743117080277443
+	training loss at 700 steps: 0.7119507915558643
+	training loss at 800 steps: 0.7700663864416128
+	Training loss for the epoch: 0.796621505103758
+	Training accuracy for epoch: 0.9975949758503974
+	Validation loss: 20.137354352805232
+Epoch 8:
+	training loss at 0 steps: 5.542688086279668e-05
+	training loss at 100 steps: 0.09822095132676623
+	training loss at 200 steps: 0.20682155935446644
+	training loss at 300 steps: 0.2561797008083886
+	training loss at 400 steps: 0.3641963171767202
+	training loss at 500 steps: 0.42131668979254755
+	training loss at 600 steps: 0.48191288882389927
+	training loss at 700 steps: 0.6550133420141719
+	training loss at 800 steps: 0.779525881628615
+	Training loss for the epoch: 0.791193463160198
+	Training accuracy for epoch: 0.9975158446649408
+	Validation loss: 19.346118726087298
+Epoch 9:
+	training loss at 0 steps: 4.215438093524426e-05
+	training loss at 100 steps: 0.06901490398558963
+	training loss at 200 steps: 0.15563028266569745
+	training loss at 300 steps: 0.22837133778466523
+	training loss at 400 steps: 0.30091663396069634
+	training loss at 500 steps: 0.3323119751594277
+	training loss at 600 steps: 0.3850780672046312
+	training loss at 700 steps: 0.48803493551258725
+	training loss at 800 steps: 0.545019427348052
+	Training loss for the epoch: 0.5612416340454729
+	Training accuracy for epoch: 0.9982211045489383
+	Validation loss: 20.433607760975065
+Epoch 10:
+	training loss at 0 steps: 1.7897935322253034e-05
+	training loss at 100 steps: 0.0747354822979105
+	training loss at 200 steps: 0.11806971085843543
+	training loss at 300 steps: 0.1957653642493824
+	training loss at 400 steps: 0.21366198228042776
+	training loss at 500 steps: 0.2810643709244687
+	training loss at 600 steps: 0.3027965574774498
+	training loss at 700 steps: 0.3203450614309986
+	training loss at 800 steps: 0.3509049623271494
+	Training loss for the epoch: 0.3940497738212798
+	Training accuracy for epoch: 0.9989380399492696
+	Validation loss: 21.171706828718015
+Epoch 11:
+	training loss at 0 steps: 0.00037268531741574407
+	training loss at 100 steps: 0.022261233832978178
+	training loss at 200 steps: 0.11611713714319194
+	training loss at 300 steps: 0.1480912698270913
+	training loss at 400 steps: 0.19910514161529136
+	training loss at 500 steps: 0.2604661122413745
+	training loss at 600 steps: 0.31538973456008534
+	training loss at 700 steps: 0.36173143445194
+	training loss at 800 steps: 0.4056236199462546
+	Training loss for the epoch: 0.42029921936909886
+	Training accuracy for epoch: 0.9987672962712882
+	Validation loss: 21.437891007240978
+Epoch 12:
+	training loss at 0 steps: 8.353700104635209e-05
+	training loss at 100 steps: 0.05534185709893791
+	training loss at 200 steps: 0.07419054961792426
+	training loss at 300 steps: 0.08877931855658971
+	training loss at 400 steps: 0.1558447140687349
+	training loss at 500 steps: 0.1933736410628626
+	training loss at 600 steps: 0.23037241809834086
+	training loss at 700 steps: 0.4208936892582642
+	training loss at 800 steps: 0.551406886795121
+	Training loss for the epoch: 0.6277323155691192
+	Training accuracy for epoch: 0.9979253081032992
+	Validation loss: 19.112342407861433
+Epoch 13:
+	training loss at 0 steps: 5.951222556177527e-05
+	training loss at 100 steps: 0.06001130278491473
+	training loss at 200 steps: 0.10891469897433126
+	training loss at 300 steps: 0.13647448777692262
+	training loss at 400 steps: 0.18794580585699805
+	training loss at 500 steps: 0.20386692117017446
+	training loss at 600 steps: 0.23109076234823078
+	training loss at 700 steps: 0.27586598311427224
+	training loss at 800 steps: 0.3112106218604822
+	Training loss for the epoch: 0.31986920423787524
+	Training accuracy for epoch: 0.9991594833451222
+	Validation loss: 21.965572676867623
+Epoch 14:
+	training loss at 0 steps: 1.7745776858646423e-05
+	training loss at 100 steps: 0.012121749658035696
+	training loss at 200 steps: 0.016162397622792923
+	training loss at 300 steps: 0.03630968432389636
+	training loss at 400 steps: 0.06604379435748342
+	training loss at 500 steps: 0.08945920459973422
+	training loss at 600 steps: 0.13141124625508382
+	training loss at 700 steps: 0.1386829307421067
+	training loss at 800 steps: 0.1868582233937559
+	Training loss for the epoch: 0.20356640692261863
+	Training accuracy for epoch: 0.9994559562441125
+	Validation loss: 22.440769815507792
+Epoch 15:
+	training loss at 0 steps: 1.4120640116743743e-05
+	training loss at 100 steps: 0.017688784201254748
+	training loss at 200 steps: 0.08239408224153522
+	training loss at 300 steps: 0.16859358925330525
+	training loss at 400 steps: 0.1899467466050737
+	training loss at 500 steps: 0.20201333675186106
+	training loss at 600 steps: 0.2587943722660384
+	training loss at 700 steps: 0.2893561090709227
+	training loss at 800 steps: 0.31556865478569307
+	Training loss for the epoch: 0.3250447580699074
+	Training accuracy for epoch: 0.9989435969729897
+	Validation loss: 23.39808249352427
+Epoch 16:
+	training loss at 0 steps: 1.3328948625712655e-05
+	training loss at 100 steps: 0.02432845581051879
+	training loss at 200 steps: 0.05451686626611263
+	training loss at 300 steps: 0.0664638525618102
+	training loss at 400 steps: 0.08272240044789214
+	training loss at 500 steps: 0.09334100038586257
+	training loss at 600 steps: 0.11632099773851223
+	training loss at 700 steps: 0.12387005174650767
+	training loss at 800 steps: 0.13078921579608505
+	Training loss for the epoch: 0.13375356764981916
+	Training accuracy for epoch: 0.9995528638988258
+	Validation loss: 24.844164882457335
+Epoch 17:
+	training loss at 0 steps: 7.640050171175972e-06
+	training loss at 100 steps: 0.011689951989637848
+	training loss at 200 steps: 0.052471386924707986
+	training loss at 300 steps: 0.07392106369456997
+	training loss at 400 steps: 0.10133917454481889
+	training loss at 500 steps: 0.11349396563514347
+	training loss at 600 steps: 0.16428548841508928
+	training loss at 700 steps: 0.1913942142216456
+	training loss at 800 steps: 0.23508007729128622
+	Training loss for the epoch: 0.2422447519659272
+	Training accuracy for epoch: 0.9992156968408131
+	Validation loss: 22.357706496404944
+Epoch 18:
+	training loss at 0 steps: 3.329555329401046e-05
+	training loss at 100 steps: 0.033780145174205245
+	training loss at 200 steps: 0.07307696471389136
+	training loss at 300 steps: 0.08300648303611524
+	training loss at 400 steps: 0.15024250008059425
+	training loss at 500 steps: 0.15918184859469875
+	training loss at 600 steps: 0.16799984457702521
+	training loss at 700 steps: 0.1816772952008705
+	training loss at 800 steps: 0.1989732956701573
+	Training loss for the epoch: 0.22721566676841576
+	Training accuracy for epoch: 0.9993413097022734
+	Validation loss: 26.136965834230068
+Epoch 19:
+	training loss at 0 steps: 0.00016362694441340864
+	training loss at 100 steps: 0.015161884870167341
+	training loss at 200 steps: 0.045147009196853105
+	training loss at 300 steps: 0.05535065103799752
+	training loss at 400 steps: 0.062439774650783875
+	training loss at 500 steps: 0.09662904759215962
+	training loss at 600 steps: 0.12682568073614675
+	training loss at 700 steps: 0.1465338617620091
+	training loss at 800 steps: 0.1794527791789733
+	Training loss for the epoch: 0.1859066245615395
+	Training accuracy for epoch: 0.9995078785052042
+	Validation loss: 22.92880878541837
+Epoch 20:
+	training loss at 0 steps: 1.3278738151711877e-05
+	training loss at 100 steps: 0.018060215314790184
+	training loss at 200 steps: 0.054034347348988376
+	training loss at 300 steps: 0.2144894709986147
+	training loss at 400 steps: 0.2521226423400549
+	training loss at 500 steps: 0.2785975469457753
+	training loss at 600 steps: 0.28748934306190677
+	training loss at 700 steps: 0.29599319251178713
+	training loss at 800 steps: 0.3114302570140808
+	Training loss for the epoch: 0.33789563939762957
+	Training accuracy for epoch: 0.9990785567801225
+	Validation loss: 23.322489370236553
+Epoch 21:
+	training loss at 0 steps: 5.6607823353260756e-06
+	training loss at 100 steps: 0.01489478838834657
+	training loss at 200 steps: 0.025313563584859367
+	training loss at 300 steps: 0.043586525664068176
+	training loss at 400 steps: 0.07675533721430838
+	training loss at 500 steps: 0.08388764629739853
+	training loss at 600 steps: 0.11020075680175978
+	training loss at 700 steps: 0.11996892999832198
+	training loss at 800 steps: 0.1549144006651204
+	Training loss for the epoch: 0.16033496643740364
+	Training accuracy for epoch: 0.9995182276422763
+	Validation loss: 22.769104144317225
+Epoch 22:
+	training loss at 0 steps: 4.617607828549808e-06
+	training loss at 100 steps: 0.0036386834960921988
+	training loss at 200 steps: 0.014703692080956898
+	training loss at 300 steps: 0.10103876206903806
+	training loss at 400 steps: 0.12252792986282657
+	training loss at 500 steps: 0.1653711080462017
+	training loss at 600 steps: 0.2231272793756034
+	training loss at 700 steps: 0.24092819639918162
+	training loss at 800 steps: 0.2699345900323351
+	Training loss for the epoch: 0.27147253304974583
+	Training accuracy for epoch: 0.9993057139558388
+	Validation loss: 24.65370350004605
+Epoch 23:
+	training loss at 0 steps: 7.911815373518039e-06
+	training loss at 100 steps: 0.030964566472448496
+	training loss at 200 steps: 0.08071104171813204
+	training loss at 300 steps: 0.09549091837743617
+	training loss at 400 steps: 0.13678076182350196
+	training loss at 500 steps: 0.17133456277224468
+	training loss at 600 steps: 0.18608584376852377
+	training loss at 700 steps: 0.19523581631256093
+	training loss at 800 steps: 0.20134944839219315
+	Training loss for the epoch: 0.20223624198570178
+	Training accuracy for epoch: 0.9995736253695635
+	Validation loss: 22.96831600540122
+Epoch 24:
+	training loss at 0 steps: 6.9339412220870145e-06
+	training loss at 100 steps: 0.00427342249645335
+	training loss at 200 steps: 0.00609761455939406
+	training loss at 300 steps: 0.007714099881695802
+	training loss at 400 steps: 0.05105230408139505
+	training loss at 500 steps: 0.06006546612957209
+	training loss at 600 steps: 0.06635078058138788
+	training loss at 700 steps: 0.07450188675375102
+	training loss at 800 steps: 0.07845758749476772
+	Training loss for the epoch: 0.07907916066915277
+	Training accuracy for epoch: 0.9997855975269124
+	Validation loss: 25.546354576805243
+Epoch 25:
+	training loss at 0 steps: 8.077249731286429e-06
+	training loss at 100 steps: 0.008442900872523751
+	training loss at 200 steps: 0.01878536024537425
+	training loss at 300 steps: 0.02657034065668995
+	training loss at 400 steps: 0.0384838694442351
+	training loss at 500 steps: 0.07848427518570134
+	training loss at 600 steps: 0.0896459294081069
+	training loss at 700 steps: 0.09628901333917383
+	training loss at 800 steps: 0.09908368754554431
+	Training loss for the epoch: 0.10235127613805162
+	Training accuracy for epoch: 0.9997673048241436
+	Validation loss: 26.3393579379873
+Epoch 26:
+	training loss at 0 steps: 0.00023106836306396872
+	training loss at 100 steps: 0.014046169681478204
+	training loss at 200 steps: 0.019297765441933734
+	training loss at 300 steps: 0.02901444851136148
+	training loss at 400 steps: 0.03276490896678297
+	training loss at 500 steps: 0.04172738161446432
+	training loss at 600 steps: 0.045643753636113615
+	training loss at 700 steps: 0.04654963269126711
+	training loss at 800 steps: 0.0566105668531236
+	Training loss for the epoch: 0.05677421699806473
+	Training accuracy for epoch: 0.999857553643801
+	Validation loss: 28.905147643431405
+Epoch 27:
+	training loss at 0 steps: 3.1692995889898157e-06
+	training loss at 100 steps: 0.00320926736230831
+	training loss at 200 steps: 0.004249108391150003
+	training loss at 300 steps: 0.022337379676855562
+	training loss at 400 steps: 0.03332389828506166
+	training loss at 500 steps: 0.0460988785630434
+	training loss at 600 steps: 0.04885024838404206
+	training loss at 700 steps: 0.12358365901172874
+	training loss at 800 steps: 0.13604476111322583
+	Training loss for the epoch: 0.14406285464974644
+	Training accuracy for epoch: 0.9994891641765711
+	Validation loss: 27.63458433276071
+Epoch 28:
+	training loss at 0 steps: 1.8835475202649832e-05
+	training loss at 100 steps: 0.03162218389024929
+	training loss at 200 steps: 0.07398805639718375
+	training loss at 300 steps: 0.09476126452068456
+	training loss at 400 steps: 0.11508219507391004
+	training loss at 500 steps: 0.1338572507399931
+	training loss at 600 steps: 0.1604887934247472
+	training loss at 700 steps: 0.17862297586157183
+	training loss at 800 steps: 0.19586561132314273
+	Training loss for the epoch: 0.19873691860766485
+	Training accuracy for epoch: 0.9995811220081742
+	Validation loss: 25.431556131475645
+Epoch 29:
+	training loss at 0 steps: 3.929821104975417e-06
+	training loss at 100 steps: 0.003954979402578829
+	training loss at 200 steps: 0.01794912291302353
+	training loss at 300 steps: 0.06567718543578849
+	training loss at 400 steps: 0.0986680987600721
+	training loss at 500 steps: 0.11166592951371968
+	training loss at 600 steps: 0.12281748302348205
+	training loss at 700 steps: 0.1338776671047981
+	training loss at 800 steps: 0.14071667246389552
+	Training loss for the epoch: 0.14256502088801426
+	Training accuracy for epoch: 0.9996667239725368
+	Validation loss: 27.41877521316769
+Epoch 30:
+	training loss at 0 steps: 8.484894351568073e-06
+	training loss at 100 steps: 0.027167537261675534
+	training loss at 200 steps: 0.03209853454904987
+	training loss at 300 steps: 0.04526446012209817
+	training loss at 400 steps: 0.056127185017203374
+	training loss at 500 steps: 0.11524994616070217
+	training loss at 600 steps: 0.13180277135688812
+	training loss at 700 steps: 0.14475811617217005
+	training loss at 800 steps: 0.17126872078642918
+	Training loss for the epoch: 0.17567243322150716
+	Training accuracy for epoch: 0.999480305266935
+	Validation loss: 26.11914714284012
+Generating prediction file for BC5CDR using early stopped model
+	 Test accuracy: 0.958217655602169
+Traceback (most recent call last):
+  File "inference.py", line 279, in <module>
+    main()
+  File "inference.py", line 275, in main
+    generate_prediction_file(pred_labels, test_data['Tokens'].tolist(), args.dataset_name, tokenizer, args.model_name)
+  File "inference.py", line 220, in generate_prediction_file
+    labels = pred_labels[i]
+IndexError: list index out of range
+Generating prediction file for BC5CDR using 30 epoch model
+	 Test accuracy: 0.9561903409479153
+Traceback (most recent call last):
+  File "inference.py", line 279, in <module>
+    main()
+  File "inference.py", line 275, in main
+    generate_prediction_file(pred_labels, test_data['Tokens'].tolist(), args.dataset_name, tokenizer, args.model_name)
+  File "inference.py", line 220, in generate_prediction_file
+    labels = pred_labels[i]
+IndexError: list index out of range
+
+Performance on BC5CDR using early stopped model
+
+2719 2383
+Splits | Mem: 5931, Syn: 2631, Zero: 913
+
+--Evaluation--
+Overall 82.9	89.5	86.1
+Mem 93.9
+Syn 81.3
+Con 84.4
+
+Performacne on BC5CDR using 30 epoch model
+
+2719 2383
+Splits | Mem: 5931, Syn: 2631, Zero: 913
+
+--Evaluation--
+Overall 82.8	90.0	86.2
+Mem 93.5
+Syn 83.4
+Con 85.5

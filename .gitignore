@@ -1,0 +1,8 @@
+datasets/*
+resources/*
+*.png
+customLoss_log.txt
+finetune_*
+inference_*
+*.out
+__pycache__/*
